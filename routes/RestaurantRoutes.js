@@ -16,7 +16,7 @@ module.exports = (options) => {
   app.route('/restaurants/:restaurantId')
     .get(RestaurantController.show)
 
-  app.route('/restaurants/:')
+  app.route('/restaurants/:restaurantId')
   // actualización restaurante
     .put(RestaurantController.update)
 
